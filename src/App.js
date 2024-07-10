@@ -13,6 +13,11 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
+    path: '/lera-app',
+    element: <Main />,
+    errorElement: <ErrorPage />
+  },
+  {
     path: '/contacts',
     element: <div>this is contacts page</div>
   },
