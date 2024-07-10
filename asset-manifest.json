@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lera-app/static/css/main.0e0cbb10.css",
-    "main.js": "/lera-app/static/js/main.5bfabf59.js",
+    "main.js": "/lera-app/static/js/main.5d1befd6.js",
     "static/media/logo.svg": "/lera-app/static/media/logo.924aa676aec7dcdf836f5353e28d4319.svg",
     "static/media/Inter-Regular.ttf": "/lera-app/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
     "static/media/elements.png": "/lera-app/static/media/elements.c5f53a47500e8531d968.png",
@@ -33,10 +33,10 @@
     "static/media/delimiterBig.svg": "/lera-app/static/media/delimiterBig.c6c9807c86a44c7fc5adc31af41752de.svg",
     "static/media/delimiter.svg": "/lera-app/static/media/delimiter.6d9e11045408721eff06.svg",
     "main.0e0cbb10.css.map": "/lera-app/static/css/main.0e0cbb10.css.map",
-    "main.5bfabf59.js.map": "/lera-app/static/js/main.5bfabf59.js.map"
+    "main.5d1befd6.js.map": "/lera-app/static/js/main.5d1befd6.js.map"
   },
   "entrypoints": [
     "static/css/main.0e0cbb10.css",
-    "static/js/main.5bfabf59.js"
+    "static/js/main.5d1befd6.js"
   ]
 }
