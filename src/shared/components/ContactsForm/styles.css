@@ -1,0 +1,117 @@
+.contacts-form {
+    padding: 60px 0;
+    color: #fff;
+}
+
+.contacts-form__title {
+    font-size: 60px;
+    line-height: 1;
+}
+
+.contacts-form__content {
+    opacity: 0.5;
+    font-size: 40px;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.contacts-form__controls {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 48px;
+}
+
+.input-wrapper {
+    flex: 1 0 calc(50% - 6px);
+    display: flex;
+    flex-flow: column;
+    gap: 12px;    
+}
+
+.input-wrapper__input {
+    height: 60px;
+    line-height: 60px;
+    border-radius: 12px;
+    background: #232323;
+    color: #fff;
+    padding-left: 12px;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.input-wrapper__label {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.contacts-form__select {
+    height: 60px;
+    line-height: 60px;
+    background: #232323;
+    border-radius: 12px;
+    color: #fff;
+    padding-left: 12px;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.contacts-form__footer {
+    display: flex;
+    margin-top: 56px;
+    justify-content: flex-end;
+}
+
+.contacts-form__button {
+    flex: 0 0 calc(50% - 6px);
+    border-radius: 12px;
+    background: #3363ff;
+    font-size: 20px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    transition: 0.2s ease-in-out background;
+}
+
+.contacts-form__button:hover {
+    cursor: pointer;
+    background: #294FCC;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1120px) {
+    .contacts-form__footer {
+        justify-content: stretch;
+    }
+
+    .contacts-form__button {
+        flex: 0 0 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .input-wrapper + .input-wrapper:nth-child(even) {
+        margin-left: 12px;
+    }
+    
+    .input-wrapper:nth-child(n + 3) {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contacts-form__controls {
+        display: flex;
+        flex-flow: column;
+        gap: 16px;
+    }
+
+    .contacts-form__footer {
+        justify-content: stretch;
+        margin-top: 24px;
+    }
+
+    .contacts-form__button {
+        flex: 0 0 100%;
+    }
+}
