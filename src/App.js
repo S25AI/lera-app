@@ -16,18 +16,6 @@ const router = createBrowserRouter([
     path: '/lera-app',
     element: <Main />,
     errorElement: <ErrorPage />
-  },
-  {
-    path: '/contacts',
-    element: <div>this is contacts page</div>
-  },
-  {
-    path: '/portfolio',
-    element: <div>this is portfolio</div>
-  },
-  {
-    path: '/services',
-    element: <div>this is servies pages</div>
   }
 ]);
 

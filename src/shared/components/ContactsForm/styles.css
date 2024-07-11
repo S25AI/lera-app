@@ -36,13 +36,25 @@
     color: #fff;
     padding-left: 12px;
     font-size: 16px;
-    font-family: Arial;
+    font-family: 'Inter';
+    transition: 0.2s ease-in-out all;
+}
+
+.input-wrapper__input--error {
+    border: 1px solid #FF5B5B;
+}
+
+.input-wrapper__input-footer {
+    font-family: 'Inter';
+    color: #FF5B5B;
+    font-size: 16px;
 }
 
 .input-wrapper__label {
-    font-family: Arial;
+    font-family: 'Inter';
     font-size: 16px;
     line-height: normal;
+    opacity: 0.6;
 }
 
 .contacts-form__select {
@@ -53,7 +65,7 @@
     color: #fff;
     padding-left: 12px;
     font-size: 16px;
-    font-family: Arial;
+    font-family: 'Inter';
 }
 
 .contacts-form__footer {
@@ -77,6 +89,30 @@
 .contacts-form__button:hover {
     cursor: pointer;
     background: #294FCC;
+}
+
+.contacts-form-success {
+    border-radius: 12px;
+    background: #232323;
+    padding: 90px 24px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.contacts-form-success__title {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.contacts-form-success__content {
+    color: #808080;
+    font-family: 'Inter';
+    font-size: 16px;
+    margin-top: 12px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1120px) {
