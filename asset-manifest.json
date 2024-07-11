@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lera-app/static/css/main.0e0cbb10.css",
-    "main.js": "/lera-app/static/js/main.5d1befd6.js",
+    "main.css": "/lera-app/static/css/main.db851a6b.css",
+    "main.js": "/lera-app/static/js/main.bb64ca2b.js",
     "static/media/logo.svg": "/lera-app/static/media/logo.924aa676aec7dcdf836f5353e28d4319.svg",
     "static/media/Inter-Regular.ttf": "/lera-app/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
     "static/media/elements.png": "/lera-app/static/media/elements.c5f53a47500e8531d968.png",
@@ -26,17 +26,18 @@
     "static/media/services-round-icon.png": "/lera-app/static/media/services-round-icon.30feba224c94ad0a8ff9.png",
     "static/media/services-star-icon.png": "/lera-app/static/media/services-star-icon.0428ca6f1f79419b6290.png",
     "static/media/services-shape-icon.png": "/lera-app/static/media/services-shape-icon.d0a09f1ed234df654d8a.png",
+    "static/media/success.svg": "/lera-app/static/media/success.8ea983143b25ebf1085d7dadf768ffc6.svg",
     "static/media/burger.svg": "/lera-app/static/media/burger.b75cf0390a5e687602878ada28b754ea.svg",
     "static/media/closeIcon.svg": "/lera-app/static/media/closeIcon.fdd301b60af03579749431b4670a9f4a.svg",
     "static/media/arrow.svg": "/lera-app/static/media/arrow.e7aff2f462d414464720ca0d6f663f01.svg",
     "index.html": "/lera-app/index.html",
     "static/media/delimiterBig.svg": "/lera-app/static/media/delimiterBig.c6c9807c86a44c7fc5adc31af41752de.svg",
     "static/media/delimiter.svg": "/lera-app/static/media/delimiter.6d9e11045408721eff06.svg",
-    "main.0e0cbb10.css.map": "/lera-app/static/css/main.0e0cbb10.css.map",
-    "main.5d1befd6.js.map": "/lera-app/static/js/main.5d1befd6.js.map"
+    "main.db851a6b.css.map": "/lera-app/static/css/main.db851a6b.css.map",
+    "main.bb64ca2b.js.map": "/lera-app/static/js/main.bb64ca2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e0cbb10.css",
-    "static/js/main.5d1befd6.js"
+    "static/css/main.db851a6b.css",
+    "static/js/main.bb64ca2b.js"
   ]
 }
