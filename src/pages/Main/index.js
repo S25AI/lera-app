@@ -2,7 +2,9 @@ import { Fragment, useState } from 'react';
 import './styles.css';
 import logo from '../../shared/assets/logo.svg';
 import { Banner } from './components/Banner';
+import { Footer } from '../../shared/components/Footer';
 import { ContactsForm } from '../../shared/components/ContactsForm';
+import { MainNavMenu } from '../../shared/components/MainNavMenu';
 
 import redesignAppImg from './assets/desktop/portfolioTop1.jpg';
 import bankGuaranteeAppImg from './assets/desktop/portfolioTop2.jpg';
@@ -102,35 +104,6 @@ const servicesItems = [{
     title: 'аутсорс дизайн-команда',
     content: 'Станем частью вашей продуктовой команды и поможем справиться с большим объемом задач, выполняя работу так же качественно, как и люди в штате'
 }];
-
-const Footer = () => {
-    return (
-        <div className='footer'>
-            <a href='/' alt='logo'>
-                <img src={logo} alt='logo' />
-            </a>
-            <MainNavMenu />
-        </div>
-    );
-};
-
-const MainNavMenu = () => {
-    return (
-        <nav className='main-menu'>
-            <ul className='main-menu__list'>
-                <li>
-                    <a href='#contacts'>Контакты</a>
-                </li>
-                <li>
-                    <a href='#portfolio'>Портфолио</a>
-                </li>
-                <li>
-                    <a href='#services'>Услуги</a>
-                </li>
-            </ul>
-        </nav>
-    );
-};
 
 const MainNavMobileMenu = ({ openModal }) => {
     return (
