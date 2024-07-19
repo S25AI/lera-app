@@ -47,3 +47,14 @@ input, select, button {
   width: 100%;
   height: auto;
 }
+
+.title--default {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content--default {
+  font-family: 'Inter';
+  font-size: 16px;
+  margin-top: 16px;
+}

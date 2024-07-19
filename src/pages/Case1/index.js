@@ -8,7 +8,7 @@ import burgerIcon from '../../pages/Main/assets/burger.svg';
 import guaranteesImg from './assets/raifMockup.png';
 import guaranteesImgMobile from './assets/raifMockup-m.png';
 import defineProductImg from './assets/raifCJM.png';
-import raifLogo from './assets/raif.svg';
+import raifLogo from '../../shared/assets/raif.svg';
 import groupIcon from './assets/group.svg';
 import timeIcon from './assets/time.svg';
 import worldIcon from './assets/world.svg';
@@ -29,7 +29,7 @@ import './styles.css';
 const Header = ({ openModal }) => {
     return (
         <div className='header'>
-            <a href='/' alt='logo'>
+            <a href='/lera-app' alt='logo'>
                 <img src={logo} alt='logo' />
             </a>
             <MainNavMenu />

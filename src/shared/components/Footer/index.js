@@ -5,7 +5,7 @@ import './styles.css';
 export const Footer = () => {
     return (
         <div className='footer'>
-            <a href='/' alt='logo'>
+            <a href='/lera-app' alt='logo'>
                 <img src={logo} alt='logo' />
             </a>
             <MainNavMenu />

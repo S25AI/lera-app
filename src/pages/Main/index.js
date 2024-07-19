@@ -1,4 +1,5 @@
 import { Fragment, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 import logo from '../../shared/assets/logo.svg';
 import { Banner } from './components/Banner';
@@ -59,9 +60,11 @@ const portfolioItemsLaptop = [{
 const items = {
     top: [{
         src: redesignAppImg,
+        href: '/lera-app/portfolio/case1',
         alt: 'redesign app'
     }, {
         src: bankGuaranteeAppImg,
+        href: '/lera-app/portfolio/case2',
         alt: 'bank guarantee'
     }],
     medium: [{
@@ -124,7 +127,9 @@ const PortfolioRow = ({ items }) => {
             {
                 items.map(item => (
                     <div key={item.src} style={{ flexShrink: '0' }}>
-                        <img style={{ borderRadius: '16px' }} src={item.src} alt={item.alt} />
+                        <Link to={item.href}>
+                            <img style={{ borderRadius: '16px' }} src={item.src} alt={item.alt} />                        
+                        </Link>
                     </div>
                 ))
             }
@@ -190,7 +195,7 @@ const MainServices = ({ items }) => {
 const Header = ({ openModal }) => {
     return (
         <div className='header'>
-            <a href='/' alt='logo'>
+            <a href='/lera-app' alt='logo'>
                 <img src={logo} alt='logo' />
             </a>
             <MainNavMenu />

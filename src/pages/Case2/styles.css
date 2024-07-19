@@ -1,0 +1,110 @@
+.case2__mobile-app-img--mobile {
+    display: none;
+}
+
+.case2-descr__img {
+    margin-top: 40px;
+}
+
+.case2__final-design {
+    margin-top: 100px;
+}
+
+.case2__final-design-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.case2__final-design-content {
+    max-width: 500px;
+}
+
+.case2__final-design-works {
+    margin-top: 32px;
+    background: #232323;
+    border-radius: 40px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9, 120px);
+    grid-gap: 20px;
+}
+
+.case2__final-design-works img {
+    width: 100%;
+    height: auto;
+}
+
+.case2__final-design-works img:first-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.case2__final-design-works img:nth-child(2) {
+    grid-column: 1 / 2;
+    grid-row: 4 / 9;
+}
+
+.case2__final-design-works img:nth-child(3) {
+    grid-column: 2;
+    grid-row: 1 / 4;
+}
+
+.case2__final-design-works img:nth-child(4) {
+    grid-column: 2;
+    grid-row: 5 / 6;
+}
+
+.case2__final-design-works img:last-child {
+    grid-column: 2;
+    grid-row: 7 / 9;
+}
+
+.case2__mobile-app {
+    margin: 80px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1120px) {
+    .case2__final-design-works {
+        display: flex;
+        flex-flow: column;
+        background: unset;
+        padding: 0;
+    }
+
+    .case2__final-design-works img:nth-child(n + 3) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .case2__final-design {
+        margin-top: 80px;
+    }
+
+    .case2__final-design-works {
+        display: flex;
+        flex-flow: column;
+        background: unset;
+        padding: 0;
+    }
+
+    .case2__final-design-works img:nth-child(n + 3) {
+        display: none;
+    }
+
+    .case2__mobile-app-img {
+        display: none;
+    }
+
+    .case2__mobile-app-img--mobile {
+        display: block;
+    }
+
+    .case2__final-design-top {
+        flex-flow: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
