@@ -1,0 +1,134 @@
+.case3-descr__img {
+    margin-top: 40px;
+}
+
+.case3__features {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.case3-feature {
+    display: flex;
+    flex-flow: column;
+    gap: 32px;
+    border-radius: 20px;
+    background: #232323;
+    flex: 1 0 calc(50% - 8px);
+    padding: 48px 56px 48px 48px;
+}
+
+.case3-feature__title {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.case3-feature__list-item {
+    font-family: 'Inter';
+    position: relative;
+    padding-left: 24px;
+}
+
+.case3-feature__list-item:before {
+    content: url('./assets/star.svg');
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: calc(50% -10px);
+}
+
+.case3-feature__list-item + .case3-feature__list-item {
+    margin-top: 24px;
+}
+
+.case3__title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.case3__problems-content {
+    margin-top: 12px;
+    max-width: 568px;
+}
+
+.case3__content {
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.case3__section {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1120px) {
+    .case3__features {
+        flex-flow: column;
+    }
+
+    .case3-result__image {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1121px) {
+    .case3-result__container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1120px) {
+    .case3-result__container {
+        padding: 40px;
+        background: #232323;
+        border-radius: 40px;
+    }
+
+    .case3-feature__list-item--laptop + .case3-feature__list-item--laptop {
+        margin-top: 9px
+    }
+
+    .case3-feature__list {
+        margin-top: 24px;
+    }
+
+    .case-result__images {
+        margin-top: 40px;
+        display: flex;
+        flex-flow: column;
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .case3__section {
+        margin-top: 80px;
+    }
+
+    .case3-feature {
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .case3-feature__list-item + .case3-feature__list-item {
+        margin-top: 16px;
+    }
+
+    .case3-result__container {
+        padding: 16px;
+        background: #232323;
+        border-radius: 16px;
+    }
+
+    .case3-feature__list {
+        margin-top: 16px;
+    }
+
+    .case-result__images {
+        margin-top: 28px;
+        display: flex;
+        flex-flow: column;
+        gap: 24px;
+    }
+}
