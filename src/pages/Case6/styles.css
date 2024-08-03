@@ -1,0 +1,151 @@
+.travalign-home__img {
+    margin: 40px 0;
+}
+
+.travalign-home__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.travalign-home__content--column {
+    flex: 1 0 50%;
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+}
+
+.travalign-app {
+    border-radius: 20px;
+    background: #232323;
+    padding: 40px;
+}
+
+.travalign-app__content {
+    max-width: 476px;
+    margin-top: 12px;
+}
+
+.travalign-app__images {
+    margin-top: 32px;
+}
+
+.travalign-app__image {
+    width: calc(50% - 16px);
+    height: auto;
+}
+
+.travalign-app__image + .travalign-app__image {
+    margin-left: 32px;
+}
+
+.travalign-tickets {
+    border-radius: 20px;
+    background: #232323;
+    padding: 36px;
+    position: relative;
+}
+
+.travalign-tickets:after {
+    content: url('./assets/checkIcon.svg');
+    width: 65px;
+    height: 68px;
+    position: absolute;
+    right: 36px;;
+    top: 36px;
+    z-index: 1;
+}
+
+.travalign-tickets__content {
+    max-width: 504px;
+    margin-top: 12px;
+}
+
+.travalign-tickets__images {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.travalign-tickets__image + .travalign-tickets__image {
+    margin-top: 20px;
+}
+
+.travalign-tickets__column {
+    flex: 1 0 50%;
+}
+
+.travalign-interface--laptop,
+.travalign-interface--mobile,
+.travalign-tickets__image--mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1120px) {
+    .travalign-home__content {
+        flex-flow: column;
+    }
+
+    .travalign-home__content .content--default-base {
+        max-width: 552px;
+    }
+
+    .travalign-app__image {
+        width: 100%;
+    }
+
+    .travalign-interface {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1120px) {
+    .travalign-app__image + .travalign-app__image {
+        margin-left: 0;
+        margin-top: 48px;
+    }
+
+    .travalign-interface--laptop {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .travalign-app {
+        padding: 16px;
+    }
+
+    .travalign-home__content {
+        gap: 40px;
+    }
+
+    .travalign-tickets__column:first-child .travalign-tickets__image {
+        display: none;
+    }
+ 
+    .travalign-app__image + .travalign-app__image {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+
+    .travalign-interface--mobile,
+    .travalign-tickets__image--mobile {
+        display: block;
+    }
+
+    .travalign-tickets {
+        padding: 16px;
+        position: relative;
+    }
+
+    .travalign-tickets:after {
+        content: '';
+        visibility: hidden;
+    }
+
+    .travalign-tickets__images {
+        flex-flow: column;
+        gap: 18px;
+    }
+}
