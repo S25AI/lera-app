@@ -6,6 +6,7 @@ import { Main } from './pages/Main';
 import { BankPortfolio } from './pages/Case1';
 import { LoanApp } from './pages/Case2';
 import { VtbApp } from './pages/Case3';
+import { SingleOps } from './pages/Case4';
 import { ErrorPage } from './shared/components/ErrorPage';
 import './app.css';
 
@@ -33,6 +34,11 @@ const router = createBrowserRouter([
   {
     path: '/lera-app/portfolio/case3',
     element: <VtbApp />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: '/lera-app/portfolio/case4',
+    element: <SingleOps />,
     errorElement: <ErrorPage />
   }
 ]);
