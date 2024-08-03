@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lera-app/static/css/main.41173bd5.css",
-    "main.js": "/lera-app/static/js/main.8a50c3e5.js",
+    "main.js": "/lera-app/static/js/main.a6cda08c.js",
     "static/media/raifMockup.png": "/lera-app/static/media/raifMockup.db07d1fa4cf8323dc137.png",
     "static/media/travalignMock.png": "/lera-app/static/media/travalignMock.e02ecd0c8aee8fc62afa.png",
     "static/media/logo.svg": "/lera-app/static/media/logo.924aa676aec7dcdf836f5353e28d4319.svg",
@@ -80,6 +80,7 @@
     "static/media/raif.svg": "/lera-app/static/media/raif.a005a1465eaecc8431420c957091ffbc.svg",
     "static/media/travalign.svg": "/lera-app/static/media/travalign.ff57fea043c253f6187199391e446469.svg",
     "static/media/group.svg": "/lera-app/static/media/group.0d9f24b85d3b34aaf5303b9bb2e92984.svg",
+    "static/media/tetrika.svg": "/lera-app/static/media/tetrika.0792cc5ba2371a8a9535ff7863257702.svg",
     "static/media/success.svg": "/lera-app/static/media/success.8ea983143b25ebf1085d7dadf768ffc6.svg",
     "static/media/world.svg": "/lera-app/static/media/world.7534b3f043de6cab148ad1637474de28.svg",
     "static/media/vtb.svg": "/lera-app/static/media/vtb.966ce99185ff3bd8dbc2ccf1fe94dbc8.svg",
@@ -92,10 +93,10 @@
     "static/media/delimiter.svg": "/lera-app/static/media/delimiter.6d9e11045408721eff06.svg",
     "static/media/star.svg": "/lera-app/static/media/star.cc08a515c0bdbf5af264.svg",
     "main.41173bd5.css.map": "/lera-app/static/css/main.41173bd5.css.map",
-    "main.8a50c3e5.js.map": "/lera-app/static/js/main.8a50c3e5.js.map"
+    "main.a6cda08c.js.map": "/lera-app/static/js/main.a6cda08c.js.map"
   },
   "entrypoints": [
     "static/css/main.41173bd5.css",
-    "static/js/main.8a50c3e5.js"
+    "static/js/main.a6cda08c.js"
   ]
 }
