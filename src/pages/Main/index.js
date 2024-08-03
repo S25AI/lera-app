@@ -69,13 +69,16 @@ const items = {
     }],
     medium: [{
         src: redesignDebtImg,
+        href: '/lera-app/portfolio/case3',
         alt: 'redesign debt'
     }, {
         src: singleOps,
+        href: '/lera-app/portfolio/case4',
         alt: 'single ops'
     }],
     bottom: [{
         src: travalignImg,
+        href: '/lera-app/portfolio/case6',
         alt: 'travalign'
     }, {
         src: onlineSchoolImg,
