@@ -82,6 +82,7 @@ const items = {
         alt: 'travalign'
     }, {
         src: onlineSchoolImg,
+        href: '/lera-app/portfolio/case5',
         alt: 'tetrika' 
     }, {
         src: horesImg,

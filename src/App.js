@@ -8,6 +8,7 @@ import { LoanApp } from './pages/Case2';
 import { VtbApp } from './pages/Case3';
 import { SingleOps } from './pages/Case4';
 import { TravelTechApp } from './pages/Case6';
+import { TetrikaApp } from './pages/Case5';
 import { ErrorPage } from './shared/components/ErrorPage';
 import './app.css';
 
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
   {
     path: '/lera-app/portfolio/case4',
     element: <SingleOps />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: '/lera-app/portfolio/case5',
+    element: <TetrikaApp />,
     errorElement: <ErrorPage />
   },
   {
