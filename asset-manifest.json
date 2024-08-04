@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/lera-app/static/css/main.41173bd5.css",
-    "main.js": "/lera-app/static/js/main.a6cda08c.js",
+    "main.css": "/lera-app/static/css/main.7062e435.css",
+    "main.js": "/lera-app/static/js/main.56f444ee.js",
+    "static/media/tetrikaYesICan.png": "/lera-app/static/media/tetrikaYesICan.24d375910216169baaee.png",
+    "static/media/tetrikaOnlineMock.png": "/lera-app/static/media/tetrikaOnlineMock.6529e6b37d869d5ebce5.png",
     "static/media/raifMockup.png": "/lera-app/static/media/raifMockup.db07d1fa4cf8323dc137.png",
+    "static/media/tetrikaOnlineSchoolMock.png": "/lera-app/static/media/tetrikaOnlineSchoolMock.e1ef677731b14382b858.png",
     "static/media/travalignMock.png": "/lera-app/static/media/travalignMock.e02ecd0c8aee8fc62afa.png",
     "static/media/logo.svg": "/lera-app/static/media/logo.924aa676aec7dcdf836f5353e28d4319.svg",
     "static/media/SingleOpsMobileAppMock.png": "/lera-app/static/media/SingleOpsMobileAppMock.01b5b7b63b77d666ef05.png",
@@ -10,6 +13,8 @@
     "static/media/resultMock.png": "/lera-app/static/media/resultMock.ba6e4d4fc519f24e22f2.png",
     "static/media/mobileBlockMock.png": "/lera-app/static/media/mobileBlockMock.97fe43327b92529ef51d.png",
     "static/media/travalignInterface.png": "/lera-app/static/media/travalignInterface.bcc0ee790353a8ce12d4.png",
+    "static/media/tetrikaAdMock.png": "/lera-app/static/media/tetrikaAdMock.0379df292fe78c604f7c.png",
+    "static/media/tetrikaTutorDream.png": "/lera-app/static/media/tetrikaTutorDream.a43a8bf849d6a1fe1dd3.png",
     "static/media/checkIcon.svg": "/lera-app/static/media/checkIcon.b745187dd71df3d0fff4.svg",
     "static/media/partnerCabinet.png": "/lera-app/static/media/partnerCabinet.82e5645db608b793a669.png",
     "static/media/HomePageMock.png": "/lera-app/static/media/HomePageMock.6b8c310190fe0b28c02e.png",
@@ -28,6 +33,7 @@
     "static/media/resultMock1.png": "/lera-app/static/media/resultMock1.0151b7a1d3712ae9875e.png",
     "static/media/SingleOpsCalendar.png": "/lera-app/static/media/SingleOpsCalendar.be5a6f77f8ce7bb62e20.png",
     "static/media/portfolio2.jpg": "/lera-app/static/media/portfolio2.acf9b3fe92764db74049.jpg",
+    "static/media/tetrikaVirtualMock.png": "/lera-app/static/media/tetrikaVirtualMock.12af5ec528a982de5a7c.png",
     "static/media/portfolio5.jpg": "/lera-app/static/media/portfolio5.7b1366e0c2610fe21cad.jpg",
     "static/media/elements-m.png": "/lera-app/static/media/elements-m.59603b7138e702c4c3b6.png",
     "static/media/travalignInterfaceMobile.png": "/lera-app/static/media/travalignInterfaceMobile.264b34a52723a31cd2e6.png",
@@ -50,6 +56,7 @@
     "static/media/portfolioBottom1.jpg": "/lera-app/static/media/portfolioBottom1.76f4f0f1b2a0e299d344.jpg",
     "static/media/finalDesignLoan3.png": "/lera-app/static/media/finalDesignLoan3.5f991da063d10c8360f5.png",
     "static/media/travalignApp2.png": "/lera-app/static/media/travalignApp2.aecf240a8704395567c3.png",
+    "static/media/tetrikaHomeMock.png": "/lera-app/static/media/tetrikaHomeMock.0402710effa4ee23dbe6.png",
     "static/media/portfolioCenter1.jpg": "/lera-app/static/media/portfolioCenter1.95b4b949a939b3bba885.jpg",
     "static/media/singleOps.svg": "/lera-app/static/media/singleOps.e1bc0d7b75f08e6e25daaca573869c35.svg",
     "static/media/elements-s.png": "/lera-app/static/media/elements-s.5d1a468d9e7a1c5f23b2.png",
@@ -92,11 +99,11 @@
     "static/media/delimiterBig.svg": "/lera-app/static/media/delimiterBig.c6c9807c86a44c7fc5adc31af41752de.svg",
     "static/media/delimiter.svg": "/lera-app/static/media/delimiter.6d9e11045408721eff06.svg",
     "static/media/star.svg": "/lera-app/static/media/star.cc08a515c0bdbf5af264.svg",
-    "main.41173bd5.css.map": "/lera-app/static/css/main.41173bd5.css.map",
-    "main.a6cda08c.js.map": "/lera-app/static/js/main.a6cda08c.js.map"
+    "main.7062e435.css.map": "/lera-app/static/css/main.7062e435.css.map",
+    "main.56f444ee.js.map": "/lera-app/static/js/main.56f444ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.41173bd5.css",
-    "static/js/main.a6cda08c.js"
+    "static/css/main.7062e435.css",
+    "static/js/main.56f444ee.js"
   ]
 }
