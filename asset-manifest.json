@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lera-app/static/css/main.7062e435.css",
-    "main.js": "/lera-app/static/js/main.56f444ee.js",
+    "main.css": "/lera-app/static/css/main.47b44bf2.css",
+    "main.js": "/lera-app/static/js/main.97dc07d6.js",
     "static/media/tetrikaYesICan.png": "/lera-app/static/media/tetrikaYesICan.24d375910216169baaee.png",
     "static/media/tetrikaOnlineMock.png": "/lera-app/static/media/tetrikaOnlineMock.6529e6b37d869d5ebce5.png",
     "static/media/raifMockup.png": "/lera-app/static/media/raifMockup.db07d1fa4cf8323dc137.png",
@@ -99,11 +99,11 @@
     "static/media/delimiterBig.svg": "/lera-app/static/media/delimiterBig.c6c9807c86a44c7fc5adc31af41752de.svg",
     "static/media/delimiter.svg": "/lera-app/static/media/delimiter.6d9e11045408721eff06.svg",
     "static/media/star.svg": "/lera-app/static/media/star.cc08a515c0bdbf5af264.svg",
-    "main.7062e435.css.map": "/lera-app/static/css/main.7062e435.css.map",
-    "main.56f444ee.js.map": "/lera-app/static/js/main.56f444ee.js.map"
+    "main.47b44bf2.css.map": "/lera-app/static/css/main.47b44bf2.css.map",
+    "main.97dc07d6.js.map": "/lera-app/static/js/main.97dc07d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7062e435.css",
-    "static/js/main.56f444ee.js"
+    "static/css/main.47b44bf2.css",
+    "static/js/main.97dc07d6.js"
   ]
 }
