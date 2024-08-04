@@ -1,6 +1,7 @@
 import {
   createBrowserRouter,
-  RouterProvider
+  RouterProvider,
+  useLocation
 } from 'react-router-dom';
 import { Main } from './pages/Main';
 import { BankPortfolio } from './pages/Case1';
@@ -11,6 +12,7 @@ import { TravelTechApp } from './pages/Case6';
 import { TetrikaApp } from './pages/Case5';
 import { ErrorPage } from './shared/components/ErrorPage';
 import './app.css';
+import { useLayoutEffect } from 'react';
 
 const router = createBrowserRouter([
   {

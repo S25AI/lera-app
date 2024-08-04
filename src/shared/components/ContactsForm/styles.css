@@ -59,7 +59,8 @@
 
 .contacts-form__select {
     height: 60px;
-    line-height: 60px;
+    padding-top: 18px;
+    box-sizing: border-box;
     background: #232323;
     border-radius: 12px;
     color: #fff;

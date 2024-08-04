@@ -36,21 +36,27 @@ import burgerIcon from './assets/burger.svg';
 
 const portfolioItemsLaptop = [{
     src: portfolioItemLaptop1,
+    href: '/lera-app/portfolio/case1',
     alt: 'redeisign app'
 }, {
     src: portfolioItemLaptop2,
+    href: '/lera-app/portfolio/case2',
     alt: 'bank guarantee'
 }, {
     src: portfolioItemLaptop3,
+    href: '/lera-app/portfolio/case3',
     alt: 'redesign debt'
 }, {
     src: portfolioItemLaptop4,
+    href: '/lera-app/portfolio/case4',
     alt: 'single ops'
 }, {
     src: portfolioItemLaptop5,
+    href: '/lera-app/portfolio/case6',
     alt: 'travalign'
 }, {
     src: portfolioItemLaptop6,
+    href: '/lera-app/portfolio/case5',
     alt: 'tetrika'
 }, {
     src: portfolioItemLaptop7,
@@ -153,12 +159,14 @@ const MainPortfolio = () => {
             <div className='main-portfolio__items-laptop'>
                 {
                     portfolioItemsLaptop.map(item => (
-                        <img
-                            className='main-portfolio__items-laptop-img'
-                            key={item.src}
-                            style={{ borderRadius: '16px' }}
-                            src={item.src}
-                            alt={item.alt} />
+                        <Link to={item.href}>
+                            <img
+                                className='img--full main-portfolio__items-laptop-img'
+                                key={item.src}
+                                style={{ borderRadius: '16px' }}
+                                src={item.src}
+                                alt={item.alt} />
+                        </Link>
                     ))
                 }
             </div>

@@ -37,6 +37,12 @@ input, select, button {
   all: unset;
 }
 
+select {
+    -moz-appearance: auto !important; 
+    -webkit-appearance: auto !important; 
+    appearance: auto !important;
+}
+
 .container {
   margin: 0 auto;
   width: 1120px;

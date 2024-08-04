@@ -8,7 +8,9 @@ export const Banner = () => {
                 <p className='banner__content'>
                     Дизайн как продуманное бизнес решение<br />для малых бизнесов и&nbsp;крупных корпораций
                 </p>
-                <button className='banner__button'>связаться с нами</button>
+                <a href='#contacts'>
+                    <button className='banner__button'>связаться с нами</button>
+                </a>
             </div>
         </div>
     );
