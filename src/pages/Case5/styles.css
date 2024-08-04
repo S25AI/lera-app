@@ -1,0 +1,91 @@
+.tetrika-about__image {
+    border-radius: 20px;
+    margin: 24px -24px;
+}
+
+.tetrika-about__content, .tetrika-result {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.tetrika__column {
+    flex: 1 0 50%;
+}
+
+.tetrika__list {
+    margin-top: 12px;
+}
+
+.tetrika__list-item {
+    font-family: 'Inter';
+    position: relative;
+    padding-left: 24px;
+}
+
+.tetrika__list-item:before {
+    content: url('./assets/star.svg');
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: calc(50% -10px);
+}
+
+.tetrika__list-item + .tetrika__list-item {
+    margin-top: 9px;
+}
+
+.tetrika-result__images {
+    display: flex;
+    flex-flow: column;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.tetrika-social__content.content--default {
+    max-width: 475px;
+    margin-top: 12px;
+}
+
+.tetrika-social__images {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+}
+
+.tetrika-social__section {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1120px) {
+    .tetrika-about__content {
+        flex-flow: column;
+        gap: 40px;
+    }
+
+    .tetrika-result {
+        gap: 32px;
+        flex-flow: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .tetrika-result__images {
+        gap: 16px;
+    }
+    
+    .tetrika-social__images {
+        gap: 16px;
+    }
+
+    .tetrika-about__image {
+        margin: 24px 0;
+    }
+
+    .case1-intro__period.tetrika-intro__period {
+        max-width: 200px;
+        margin: 20px 0;
+    }
+}
