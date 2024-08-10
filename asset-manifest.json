@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/lera-app/static/css/main.47b44bf2.css",
-    "main.js": "/lera-app/static/js/main.97dc07d6.js",
+    "main.css": "/lera-app/static/css/main.ede6fc27.css",
+    "main.js": "/lera-app/static/js/main.32d5aea9.js",
     "static/media/tetrikaYesICan.png": "/lera-app/static/media/tetrikaYesICan.24d375910216169baaee.png",
     "static/media/tetrikaOnlineMock.png": "/lera-app/static/media/tetrikaOnlineMock.6529e6b37d869d5ebce5.png",
     "static/media/raifMockup.png": "/lera-app/static/media/raifMockup.db07d1fa4cf8323dc137.png",
     "static/media/tetrikaOnlineSchoolMock.png": "/lera-app/static/media/tetrikaOnlineSchoolMock.e1ef677731b14382b858.png",
+    "static/media/delovayaRusMainMock.png": "/lera-app/static/media/delovayaRusMainMock.e2e8a38afab451f3b76a.png",
     "static/media/travalignMock.png": "/lera-app/static/media/travalignMock.e02ecd0c8aee8fc62afa.png",
     "static/media/logo.svg": "/lera-app/static/media/logo.924aa676aec7dcdf836f5353e28d4319.svg",
     "static/media/SingleOpsMobileAppMock.png": "/lera-app/static/media/SingleOpsMobileAppMock.01b5b7b63b77d666ef05.png",
+    "static/media/delovayaRusHome.png": "/lera-app/static/media/delovayaRusHome.b9bee4a93ea13458cdc0.png",
     "static/media/mobileAppLoanMock.png": "/lera-app/static/media/mobileAppLoanMock.c4c7e18a045570e92611.png",
     "static/media/resultMock.png": "/lera-app/static/media/resultMock.ba6e4d4fc519f24e22f2.png",
+    "static/media/delovayaRusOrderMock.png": "/lera-app/static/media/delovayaRusOrderMock.0d45b340c8a036de5cfd.png",
     "static/media/mobileBlockMock.png": "/lera-app/static/media/mobileBlockMock.97fe43327b92529ef51d.png",
     "static/media/travalignInterface.png": "/lera-app/static/media/travalignInterface.bcc0ee790353a8ce12d4.png",
     "static/media/tetrikaAdMock.png": "/lera-app/static/media/tetrikaAdMock.0379df292fe78c604f7c.png",
     "static/media/tetrikaTutorDream.png": "/lera-app/static/media/tetrikaTutorDream.a43a8bf849d6a1fe1dd3.png",
+    "static/media/delovayaRusPersonalMock.png": "/lera-app/static/media/delovayaRusPersonalMock.c33c6b63110db24e1399.png",
     "static/media/checkIcon.svg": "/lera-app/static/media/checkIcon.b745187dd71df3d0fff4.svg",
     "static/media/partnerCabinet.png": "/lera-app/static/media/partnerCabinet.82e5645db608b793a669.png",
     "static/media/HomePageMock.png": "/lera-app/static/media/HomePageMock.6b8c310190fe0b28c02e.png",
@@ -77,6 +81,7 @@
     "static/media/partnerAppMock6.png": "/lera-app/static/media/partnerAppMock6.7d19782ab94d25abdad6.png",
     "static/media/partnerAppMock2.png": "/lera-app/static/media/partnerAppMock2.1a1a9469126b36c68896.png",
     "static/media/partnerAppMock4.png": "/lera-app/static/media/partnerAppMock4.b4a6816f298c5a521f43.png",
+    "static/media/delovayaRusIcon.svg": "/lera-app/static/media/delovayaRusIcon.e3764c310e57f38ae90ca758b7be80d6.svg",
     "static/media/factoid.svg": "/lera-app/static/media/factoid.67fd67488004f09307e47e8d64ab11ca.svg",
     "static/media/Soyuz Grotesk Bold.woff": "/lera-app/static/media/Soyuz Grotesk Bold.64d78afb93ec53d58165.woff",
     "static/media/services-cursor-icon.png": "/lera-app/static/media/services-cursor-icon.6fa5e83a85f242684573.png",
@@ -99,11 +104,11 @@
     "static/media/delimiterBig.svg": "/lera-app/static/media/delimiterBig.c6c9807c86a44c7fc5adc31af41752de.svg",
     "static/media/delimiter.svg": "/lera-app/static/media/delimiter.6d9e11045408721eff06.svg",
     "static/media/star.svg": "/lera-app/static/media/star.cc08a515c0bdbf5af264.svg",
-    "main.47b44bf2.css.map": "/lera-app/static/css/main.47b44bf2.css.map",
-    "main.97dc07d6.js.map": "/lera-app/static/js/main.97dc07d6.js.map"
+    "main.ede6fc27.css.map": "/lera-app/static/css/main.ede6fc27.css.map",
+    "main.32d5aea9.js.map": "/lera-app/static/js/main.32d5aea9.js.map"
   },
   "entrypoints": [
-    "static/css/main.47b44bf2.css",
-    "static/js/main.97dc07d6.js"
+    "static/css/main.ede6fc27.css",
+    "static/js/main.32d5aea9.js"
   ]
 }
