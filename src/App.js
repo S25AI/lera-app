@@ -1,7 +1,6 @@
 import {
   createBrowserRouter,
-  RouterProvider,
-  useLocation
+  RouterProvider
 } from 'react-router-dom';
 import { Main } from './pages/Main';
 import { BankPortfolio } from './pages/Case1';
@@ -10,9 +9,9 @@ import { VtbApp } from './pages/Case3';
 import { SingleOps } from './pages/Case4';
 import { TravelTechApp } from './pages/Case6';
 import { TetrikaApp } from './pages/Case5';
+import { DelovayaRus } from './pages/Case7';
 import { ErrorPage } from './shared/components/ErrorPage';
 import './app.css';
-import { useLayoutEffect } from 'react';
 
 const router = createBrowserRouter([
   {
@@ -53,6 +52,11 @@ const router = createBrowserRouter([
   {
     path: '/lera-app/portfolio/case6',
     element: <TravelTechApp />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: '/lera-app/portfolio/case7',
+    element: <DelovayaRus />,
     errorElement: <ErrorPage />
   }
 ]);

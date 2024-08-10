@@ -60,6 +60,7 @@ const portfolioItemsLaptop = [{
     alt: 'tetrika'
 }, {
     src: portfolioItemLaptop7,
+    href: '/lera-app/portfolio/case7',
     alt: 'hores'
 }];
 
@@ -92,6 +93,7 @@ const items = {
         alt: 'tetrika' 
     }, {
         src: horesImg,
+        href: '/lera-app/portfolio/case7',
         alt: 'hores'
     }]
 };

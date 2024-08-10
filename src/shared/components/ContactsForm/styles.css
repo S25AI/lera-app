@@ -151,4 +151,14 @@
     .contacts-form__button {
         flex: 0 0 100%;
     }
+
+    .contacts-form__title {
+        font-size: 40px;
+        max-width: 250px;
+    }
+    
+    .contacts-form__content {
+        font-size: 24px;
+        max-width: 250px;
+    }
 }
