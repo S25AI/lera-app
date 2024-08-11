@@ -1,6 +1,9 @@
+import { useLayoutEffect } from 'react';
 import {
-  createBrowserRouter,
-  RouterProvider
+  BrowserRouter,
+  Route,
+  Routes,
+  useLocation
 } from 'react-router-dom';
 import { Main } from './pages/Main';
 import { BankPortfolio } from './pages/Case1';
@@ -13,58 +16,55 @@ import { DelovayaRus } from './pages/Case7';
 import { ErrorPage } from './shared/components/ErrorPage';
 import './app.css';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Main />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: '/lera-app',
-    element: <Main />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: '/lera-app/portfolio/case1',
-    element: <BankPortfolio />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: '/lera-app/portfolio/case2',
-    element: <LoanApp />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: '/lera-app/portfolio/case3',
-    element: <VtbApp />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: '/lera-app/portfolio/case4',
-    element: <SingleOps />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: '/lera-app/portfolio/case5',
-    element: <TetrikaApp />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: '/lera-app/portfolio/case6',
-    element: <TravelTechApp />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: '/lera-app/portfolio/case7',
-    element: <DelovayaRus />,
-    errorElement: <ErrorPage />
-  }
-]);
+const ScrollToTopWrapper = ({ children }) => {
+  const location = useLocation();
+
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0, 0);
+  }, [location.pathname]);
+
+  return children
+};
 
 function App() {
   return (
     <div className="App">
-      <RouterProvider router={router} />
+      <BrowserRouter>
+        <ScrollToTopWrapper>
+          <Routes>
+            <Route path='/' element={<Main />} errorElement={<ErrorPage />} />
+            <Route path='/lera-app' element={<Main />} errorElement={<ErrorPage />} />
+            <Route
+              path='/lera-app/portfolio/case1'
+              element={<BankPortfolio />}
+              errorElement={<ErrorPage />} />
+            <Route
+              path='/lera-app/portfolio/case2'
+              element={<LoanApp />}
+              errorElement={<ErrorPage />} />
+            <Route
+              path='/lera-app/portfolio/case3'
+              element={<VtbApp />}
+              errorElement={<ErrorPage />} />
+            <Route
+              path='/lera-app/portfolio/case4'
+              element={<SingleOps />}
+              errorElement={<ErrorPage />} />
+            <Route
+              path='/lera-app/portfolio/case5'
+              element={<TetrikaApp />}
+              errorElement={<ErrorPage />} />
+            <Route
+              path='/lera-app/portfolio/case6'
+              element={<TravelTechApp />}
+              errorElement={<ErrorPage />} />
+            <Route
+              path='/lera-app/portfolio/case7'
+              element={<DelovayaRus />}
+              errorElement={<ErrorPage />} />
+          </Routes>
+        </ScrollToTopWrapper>
+      </BrowserRouter>
     </div>
   );          
 }
