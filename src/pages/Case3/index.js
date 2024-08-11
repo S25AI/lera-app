@@ -82,7 +82,7 @@ export const VtbApp = () => {
                         </div>
                         <div className='case1-intro__period case1-intro__block'>
                             <span className='case1-intro-el'>период</span>
-                            <span>Январ-апрель 2019, 4&nbsp;месяца</span>
+                            <span>Январь-апрель 2019, 4&nbsp;месяца</span>
                         </div>
                         <div className='case1-intro__work case1-intro__block'>
                             <span className='case1-intro-el'>область работы</span>

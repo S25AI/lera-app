@@ -59,14 +59,15 @@
 
 .contacts-form__select {
     height: 60px;
-    padding-top: 18px;
+    line-height: 60px;
     box-sizing: border-box;
-    background: #232323;
+    background: url('./assets/arrow.svg') no-repeat right 20px center #232323;
     border-radius: 12px;
     color: #fff;
     padding-left: 12px;
     font-size: 16px;
     font-family: 'Inter';
+    position: relative;
 }
 
 .contacts-form__footer {
