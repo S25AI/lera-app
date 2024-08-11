@@ -192,7 +192,7 @@ export const LoanApp = () => {
                                     <a onClick={handleMenuItemClick} href='#contacts'>Контакты</a>
                                 </li>
                                 <li className='main-modal__list-item'>
-                                    <a onClick={handleMenuItemClick} href='#portfolio'>Портфолио</a>
+                                    <a onClick={handleMenuItemClick} href='#portfolio'>Наши работы</a>
                                 </li>
                                 <li className='main-modal__list-item'>
                                     <a onClick={handleMenuItemClick} href='#services'>Услуги</a>

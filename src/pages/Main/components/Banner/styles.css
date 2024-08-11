@@ -27,15 +27,21 @@
 
 .banner__button {
     margin-top: 70px;
-    padding: 0 63px 0 34px;
+    padding: 19px 32px;
     border-radius: 12px;
     background: #3363ff;
     font-size: 20px;
     text-align: center;
-    height: 60px;
-    line-height: 60px;
     color: #fff;
     transition: 0.2s ease-in-out background;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.banner__button img {
+    top: 2px;
+    position: relative;
 }
 
 .banner__button:hover {
@@ -73,8 +79,8 @@
 
     .banner__button {
         margin-top: 28px;
-        padding: 0;
-        display: block;
+        box-sizing: border-box;
         width: 100%;
+        justify-content: center;
     }
 }

@@ -7,13 +7,13 @@ import { Footer } from '../../shared/components/Footer';
 import { ContactsForm } from '../../shared/components/ContactsForm';
 import { MainNavMenu } from '../../shared/components/MainNavMenu';
 
-import redesignAppImg from './assets/desktop/portfolioTop1.jpg';
-import bankGuaranteeAppImg from './assets/desktop/portfolioTop2.jpg';
-import redesignDebtImg from'./assets/desktop/portfolioCenter1.jpg';
-import singleOps from './assets/desktop/portfolioCenter2.jpg';
-import travalignImg from './assets/desktop/portfolioBottom1.jpg';
-import onlineSchoolImg from './assets/desktop/portfolioBottom2.jpg';
-import horesImg from './assets/desktop/portfolioBottom3.jpg';
+import redesignAppImg from './assets/desktop/portfolioTop1.png';
+import bankGuaranteeAppImg from './assets/desktop/portfolioTop2.png';
+import redesignDebtImg from'./assets/desktop/portfolioCenter1.png';
+import singleOps from './assets/desktop/portfolioCenter2.png';
+import travalignImg from './assets/desktop/portfolioBottom1.png';
+import onlineSchoolImg from './assets/desktop/portfolioBottom2.png';
+import horesImg from './assets/desktop/portfolioBottom3.png';
 
 import webDesignIcon from './assets/desktop/services-star-icon.png';
 import interfaceAppIcon from './assets/desktop/services-shape-icon.png';
@@ -23,24 +23,24 @@ import designTeamIcon from './assets/desktop/services-cursor-icon.png';
 import delimiterIcon from '../../shared/assets/delimiterBig.svg';
 import arrowIcon from '../../shared/assets/arrow.svg';
 
-import portfolioItemLaptop1 from './assets/laptop/portfolio1.jpg';
-import portfolioItemLaptop2 from './assets/laptop/portfolio2.jpg';
-import portfolioItemLaptop3 from './assets/laptop/portfolio3.jpg';
-import portfolioItemLaptop4 from './assets/laptop/portfolio4.jpg';
-import portfolioItemLaptop5 from './assets/laptop/portfolio5.jpg';
-import portfolioItemLaptop6 from './assets/laptop/portfolio6.jpg';
-import portfolioItemLaptop7 from './assets/laptop/portfolio7.jpg';
+import portfolioItemLaptop1 from './assets/laptop/portfolio1.png';
+import portfolioItemLaptop2 from './assets/laptop/portfolio2.png';
+import portfolioItemLaptop3 from './assets/laptop/portfolio3.png';
+import portfolioItemLaptop4 from './assets/laptop/portfolio4.png';
+import portfolioItemLaptop5 from './assets/laptop/portfolio5.png';
+import portfolioItemLaptop6 from './assets/laptop/portfolio6.png';
+import portfolioItemLaptop7 from './assets/laptop/portfolio7.png';
 
 import closeIcon from './assets/closeIcon.svg';
 import burgerIcon from './assets/burger.svg';
 
 const portfolioItemsLaptop = [{
     src: portfolioItemLaptop1,
-    href: '/lera-app/portfolio/case1',
+    href: '/lera-app/portfolio/case2',
     alt: 'redeisign app'
 }, {
     src: portfolioItemLaptop2,
-    href: '/lera-app/portfolio/case2',
+    href: '/lera-app/portfolio/case1',
     alt: 'bank guarantee'
 }, {
     src: portfolioItemLaptop3,
@@ -67,11 +67,11 @@ const portfolioItemsLaptop = [{
 const items = {
     top: [{
         src: redesignAppImg,
-        href: '/lera-app/portfolio/case1',
+        href: '/lera-app/portfolio/case2',
         alt: 'redesign app'
     }, {
         src: bankGuaranteeAppImg,
-        href: '/lera-app/portfolio/case2',
+        href: '/lera-app/portfolio/case1',
         alt: 'bank guarantee'
     }],
     medium: [{
@@ -133,14 +133,17 @@ const MainNavMobileMenu = ({ openModal }) => {
     );
 }
 
-const PortfolioRow = ({ items }) => {
+const PortfolioRow = ({ items, firstWidth }) => {
     return (
         <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
             {
-                items.map(item => (
-                    <div key={item.src} style={{ flexShrink: '0' }}>
+                items.map((item) => (
+                    <div key={item.src}>
                         <Link to={item.href}>
-                            <img style={{ borderRadius: '16px' }} src={item.src} alt={item.alt} />                        
+                            <img
+                                className='img--full'
+                                src={item.src}
+                                alt={item.alt} />                        
                         </Link>
                     </div>
                 ))
@@ -154,7 +157,7 @@ const MainPortfolio = () => {
         <section id='portfolio' className='main-portfolio'>
             <h2 className='main-portfolio__title'>наши работы</h2>
             <div className='main-portfolio__items'>
-                <PortfolioRow items={items.top} />
+                <PortfolioRow firstWidth='363px' items={items.top} />
                 <PortfolioRow items={items.medium} />
                 <PortfolioRow items={items.bottom} />
             </div>
@@ -302,7 +305,7 @@ export const Main = () => {
                                     <a onClick={handleMenuItemClick} href='#contacts'>Контакты</a>
                                 </li>
                                 <li className='main-modal__list-item'>
-                                    <a onClick={handleMenuItemClick} href='#portfolio'>Портфолио</a>
+                                    <a onClick={handleMenuItemClick} href='#portfolio'>Наши работы</a>
                                 </li>
                                 <li className='main-modal__list-item'>
                                     <a onClick={handleMenuItemClick} href='#services'>Услуги</a>

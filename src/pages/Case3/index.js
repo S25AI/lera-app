@@ -11,6 +11,7 @@ import vtbLogo from '../../shared/assets/vtb.svg';
 import vtbLoanMockImage from './assets/vtbLoanMock.png';
 import resultMockImage from './assets/resultMock.png';
 import mobileBlockMockImage from './assets/mobileBlockMock.png';
+import mobileBlockMockMobileImage from './assets/mobileBlockMockMobile.png';
 import resultMock1Image from './assets/resultMock1.png';
 import resultMock2Image from './assets/resultMock2.png';
 import resultMock3Image from './assets/resultMock3.png';
@@ -210,7 +211,11 @@ export const VtbApp = () => {
                     <section className='case3__section'>
                         <img
                             src={mobileBlockMockImage}
-                            className='img--full'
+                            className='case3-mobile-block__desktop img--full'
+                            alt='mobile block mock' />
+                        <img
+                            src={mobileBlockMockMobileImage}
+                            className='img--full case3-mobile-block__mobile'
                             alt='mobile block mock' />
                     </section>
                     <section className='case3__section' />
@@ -235,7 +240,7 @@ export const VtbApp = () => {
                                     <a onClick={handleMenuItemClick} href='#contacts'>Контакты</a>
                                 </li>
                                 <li className='main-modal__list-item'>
-                                    <a onClick={handleMenuItemClick} href='#portfolio'>Портфолио</a>
+                                    <a onClick={handleMenuItemClick} href='#portfolio'>Наши работы</a>
                                 </li>
                                 <li className='main-modal__list-item'>
                                     <a onClick={handleMenuItemClick} href='#services'>Услуги</a>

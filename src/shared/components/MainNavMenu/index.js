@@ -6,7 +6,7 @@ export const MainNavMenu = () => {
                     <a href='#contacts'>Контакты</a>
                 </li>
                 <li>
-                    <a href='#portfolio'>Портфолио</a>
+                    <a href='#portfolio'>Наши работы</a>
                 </li>
                 <li>
                     <a href='#services'>Услуги</a>

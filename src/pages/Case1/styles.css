@@ -6,6 +6,7 @@
 .case1__title {
     font-size: 60px;
     line-height: 1;
+    margin-top: 40px;
 }
 
 .case1-intro {
@@ -334,6 +335,7 @@
 @media screen and (max-width: 767px) {
     .case1__title {
         font-size: 40px;
+        margin-top: 0;
     }
 
     .case1-intro {

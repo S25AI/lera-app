@@ -73,7 +73,7 @@
 }
 
 .travalign-tickets__column {
-    flex: 1 0 50%;
+    flex: 1 0 calc(50% - 16px);
 }
 
 .travalign-interface--laptop,

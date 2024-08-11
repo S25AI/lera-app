@@ -7,6 +7,7 @@ const Input = ({
     label,
     value,
     onChange,
+    placeholder,
     error,
     type='text'
 }) => {
@@ -23,6 +24,7 @@ const Input = ({
                 type={type}
                 id={name}
                 name={name}
+                placeholder={placeholder}
                 value={value}
                 onChange={onChange}
                 className={className} />
@@ -149,6 +151,7 @@ export const ContactsForm = () => {
                         value={formData.userPhone.value}
                         error={formData.userPhone.error}
                         label='Телефон'
+                        placeholder='+7(000)000-00-00'
                         onChange={handleChange}
                         name='userPhone' 
                         type='tel' />

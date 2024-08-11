@@ -1,3 +1,4 @@
+import arrowIcon from './assets/arrow.svg';
 import './styles.css';
 
 export const Banner = () => {
@@ -9,7 +10,10 @@ export const Banner = () => {
                     Дизайн как продуманное бизнес решение<br />для малых бизнесов и&nbsp;крупных корпораций
                 </p>
                 <a href='#contacts'>
-                    <button className='banner__button'>связаться с нами</button>
+                    <button className='banner__button'>
+                        <span>связаться с нами</span>
+                        <img src={arrowIcon} width='22px' height='22px' alt='arrow' />
+                    </button>
                 </a>
             </div>
         </div>

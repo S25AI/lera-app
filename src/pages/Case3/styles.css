@@ -8,6 +8,10 @@
     margin-top: 40px;
 }
 
+.case3-mobile-block__mobile {
+    display: none;
+}
+
 .case3-feature {
     display: flex;
     flex-flow: column;
@@ -104,6 +108,14 @@
 @media screen and (max-width: 767px) {
     .case3__section {
         margin-top: 80px;
+    }
+
+    .case3-mobile-block__desktop {
+        display: none;
+    }
+
+    .case3-mobile-block__mobile {
+        display: block;
     }
 
     .case3-feature {
