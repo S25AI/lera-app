@@ -151,7 +151,7 @@ export const ContactsForm = () => {
                         value={formData.userPhone.value}
                         error={formData.userPhone.error}
                         label='Телефон'
-                        placeholder='+7(000)000-00-00'
+                        placeholder='+7'
                         onChange={handleChange}
                         name='userPhone' 
                         type='tel' />

@@ -1,8 +1,9 @@
 .banner {
     padding: 56px 80px;
+    box-sizing: border-box;
+    background: url('./assets/composition.png') no-repeat;
+    background-size: 100% 100%;
     border-radius: 40px;
-    background: url('./assets/elements.png') no-repeat left 50px top 63px #232323;
-    background-size: 351px 374px;
 }
 
 .banner__entry {
@@ -52,8 +53,8 @@
 @media screen and (min-width: 768px) and (max-width: 1120px) {
     .banner {
         padding: 56px 44px;
-        background: url('./assets/elements-m.png') no-repeat right 0 top 40px #232323;
-        background-size: 186px 461px;
+        background: url('./assets/compositionTablet.png') no-repeat;
+        background-size: 100% 100%;
         min-height: 500px;
     }
 
@@ -65,8 +66,8 @@
 @media screen and (max-width: 767px) {
     .banner {
         padding: 164px 16px 16px;
-        background: url('./assets/elements-s.png') no-repeat top 0 left 16px #232323;
-        background-size: 281px 131px;
+        background: url('./assets/compositionMobile.png') no-repeat;
+        background-size: 100% 100%;
     }
 
     .banner__entry {
