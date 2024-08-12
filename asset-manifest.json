@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lera-app/static/css/main.3474b9d3.css",
-    "main.js": "/lera-app/static/js/main.fb78b93c.js",
+    "main.css": "/lera-app/static/css/main.0d11e8b8.css",
+    "main.js": "/lera-app/static/js/main.0be8913b.js",
     "static/media/tetrikaYesICan.png": "/lera-app/static/media/tetrikaYesICan.24d375910216169baaee.png",
     "static/media/tetrikaOnlineMock.png": "/lera-app/static/media/tetrikaOnlineMock.6529e6b37d869d5ebce5.png",
     "static/media/raifMockup.png": "/lera-app/static/media/raifMockup.db07d1fa4cf8323dc137.png",
@@ -12,9 +12,11 @@
     "static/media/SingleOpsMobileAppMock.png": "/lera-app/static/media/SingleOpsMobileAppMock.01b5b7b63b77d666ef05.png",
     "static/media/delovayaRusHome.png": "/lera-app/static/media/delovayaRusHome.b9bee4a93ea13458cdc0.png",
     "static/media/mobileAppLoanMock.png": "/lera-app/static/media/mobileAppLoanMock.c4c7e18a045570e92611.png",
+    "static/media/composition.png": "/lera-app/static/media/composition.c500cd3a459e7e562fb9.png",
     "static/media/resultMock.png": "/lera-app/static/media/resultMock.ba6e4d4fc519f24e22f2.png",
     "static/media/delovayaRusOrderMock.png": "/lera-app/static/media/delovayaRusOrderMock.0d45b340c8a036de5cfd.png",
     "static/media/mobileBlockMock.png": "/lera-app/static/media/mobileBlockMock.97fe43327b92529ef51d.png",
+    "static/media/compositionTablet.png": "/lera-app/static/media/compositionTablet.1badeea1a231b295ba3d.png",
     "static/media/travalignInterface.png": "/lera-app/static/media/travalignInterface.bcc0ee790353a8ce12d4.png",
     "static/media/tetrikaAdMock.png": "/lera-app/static/media/tetrikaAdMock.0379df292fe78c604f7c.png",
     "static/media/tetrikaTutorDream.png": "/lera-app/static/media/tetrikaTutorDream.a43a8bf849d6a1fe1dd3.png",
@@ -25,6 +27,7 @@
     "static/media/SingleOpsMock.png": "/lera-app/static/media/SingleOpsMock.3d3d6fb7413efdf27619.png",
     "static/media/SingleOpsRoute.png": "/lera-app/static/media/SingleOpsRoute.c439f5625594eebe6cc2.png",
     "static/media/travalignInterfaceLaptop.png": "/lera-app/static/media/travalignInterfaceLaptop.fff67edb2cef3307a223.png",
+    "static/media/compositionMobile.png": "/lera-app/static/media/compositionMobile.a7977688af3efea42a66.png",
     "static/media/portfolioTop2.png": "/lera-app/static/media/portfolioTop2.dad697be8c40b1bc1420.png",
     "static/media/finalProductMock.png": "/lera-app/static/media/finalProductMock.a19a577d0f9fd9b612e2.png",
     "static/media/vtbLoanMock.png": "/lera-app/static/media/vtbLoanMock.3019c4173db765201824.png",
@@ -36,13 +39,11 @@
     "static/media/raifLoanMock.png": "/lera-app/static/media/raifLoanMock.1431b7b6ec09d5c65aef.png",
     "static/media/portfolio7.png": "/lera-app/static/media/portfolio7.762495919bb9821f3030.png",
     "static/media/portfolio2.png": "/lera-app/static/media/portfolio2.634b082424d1051361e7.png",
-    "static/media/elements.png": "/lera-app/static/media/elements.c5f53a47500e8531d968.png",
     "static/media/portfolioBottom2.png": "/lera-app/static/media/portfolioBottom2.8e563325b25c3e4d97d1.png",
     "static/media/resultMock1.png": "/lera-app/static/media/resultMock1.0151b7a1d3712ae9875e.png",
     "static/media/SingleOpsCalendar.png": "/lera-app/static/media/SingleOpsCalendar.be5a6f77f8ce7bb62e20.png",
     "static/media/portfolioBottom1.png": "/lera-app/static/media/portfolioBottom1.21a7bf9431b6f61089e5.png",
     "static/media/tetrikaVirtualMock.png": "/lera-app/static/media/tetrikaVirtualMock.12af5ec528a982de5a7c.png",
-    "static/media/elements-m.png": "/lera-app/static/media/elements-m.59603b7138e702c4c3b6.png",
     "static/media/travalignInterfaceMobile.png": "/lera-app/static/media/travalignInterfaceMobile.264b34a52723a31cd2e6.png",
     "static/media/resultMock2.png": "/lera-app/static/media/resultMock2.892cf657f5d7e1d3dbd1.png",
     "static/media/portfolio6.png": "/lera-app/static/media/portfolio6.4b000e42a95ccd1344a3.png",
@@ -65,7 +66,6 @@
     "static/media/tetrikaHomeMock.png": "/lera-app/static/media/tetrikaHomeMock.0402710effa4ee23dbe6.png",
     "static/media/portfolio3.png": "/lera-app/static/media/portfolio3.c49c62b914a2f202fded.png",
     "static/media/singleOps.svg": "/lera-app/static/media/singleOps.e1bc0d7b75f08e6e25daaca573869c35.svg",
-    "static/media/elements-s.png": "/lera-app/static/media/elements-s.5d1a468d9e7a1c5f23b2.png",
     "static/media/portfolioTop1.png": "/lera-app/static/media/portfolioTop1.97ee5ae7ac8c89382a72.png",
     "static/media/portfolio1.png": "/lera-app/static/media/portfolio1.373e656d0049f0b77ff0.png",
     "static/media/finalDesignLoan1.png": "/lera-app/static/media/finalDesignLoan1.181412478bf47eb6661d.png",
@@ -105,11 +105,11 @@
     "static/media/delimiterBig.svg": "/lera-app/static/media/delimiterBig.c6c9807c86a44c7fc5adc31af41752de.svg",
     "static/media/delimiter.svg": "/lera-app/static/media/delimiter.6d9e11045408721eff06.svg",
     "static/media/star.svg": "/lera-app/static/media/star.cc08a515c0bdbf5af264.svg",
-    "main.3474b9d3.css.map": "/lera-app/static/css/main.3474b9d3.css.map",
-    "main.fb78b93c.js.map": "/lera-app/static/js/main.fb78b93c.js.map"
+    "main.0d11e8b8.css.map": "/lera-app/static/css/main.0d11e8b8.css.map",
+    "main.0be8913b.js.map": "/lera-app/static/js/main.0be8913b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3474b9d3.css",
-    "static/js/main.fb78b93c.js"
+    "static/css/main.0d11e8b8.css",
+    "static/js/main.0be8913b.js"
   ]
 }
